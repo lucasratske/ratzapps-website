@@ -2,8 +2,9 @@ import React from 'react';
 import Navbar from '../Components/Navbar/Navbar';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Presentation from './Presentation/Presentation';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
+import Portfolio from './Portfolio/Portfolio';
+import Contact from './Contact/Contact';
+import WhatIDo from './WhatIDo/WhatIDo';
 import PageContainer from '../Components/PageContainer/PageContainer';
 import { spring, AnimatedSwitch } from 'react-router-transition';
 
@@ -55,6 +56,9 @@ const App = () => (
         </Route>
         <Route path="/contact">
           <Contact />
+        </Route>
+        <Route path="/what-i-do">
+          <WhatIDo />
         </Route>
       </AnimatedSwitch>
     </PageContainer>
