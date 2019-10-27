@@ -7,12 +7,7 @@ const Navbar = () => (
     <ul className="navbar">
       <li className="navbar-item">
         <Link className="navbar-item-link" to="/">
-          Resumo
-        </Link>
-      </li>
-      <li className="navbar-item">
-        <Link className="navbar-item-link" to="/who-am-i">
-          Quem sou eu
+          Apresentação
         </Link>
       </li>
       <li className="navbar-item">

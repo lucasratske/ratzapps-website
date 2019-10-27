@@ -1,8 +1,7 @@
 import React from 'react';
 import Navbar from '../Components/Navbar/Navbar';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import WhoAmI from './WhoAmI';
-import Summary from './Summary';
+import Presentation from './Presentation';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import PageContainer from '../Components/PageContainer/PageContainer';
@@ -13,10 +12,7 @@ const App = () => (
     <PageContainer>
       <Switch>
         <Route exact path="/">
-          <Summary />
-        </Route>
-        <Route path="/who-am-i">
-          <WhoAmI />
+          <Presentation />
         </Route>
         <Route path="/portfolio">
           <Portfolio />
