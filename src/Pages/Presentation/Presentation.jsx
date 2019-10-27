@@ -12,10 +12,18 @@ export default () => (
         <p className="name">Lucas Ratske</p>
         <p className="job-title">Full stack developer</p>
         <p>Curitiba, Paraná - Brasil</p>
-        <a href="https://github.com/lucasratske" target="_blank">
+        <a
+          href="https://github.com/lucasratske"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img className="social-logo" src={github} alt="Github" />
         </a>
-        <a href="https://www.linkedin.com/in/lucas-ratske/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/lucas-ratske/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img className="social-logo" src={linkedin} alt="Linkedin" />
         </a>
       </div>
