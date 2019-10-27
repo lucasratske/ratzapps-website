@@ -29,7 +29,25 @@ export default () => (
       </div>
     </div>
     <div className="presentation-text">
-      <p className="title">Quem é o Ratske?</p>
+      <h2 className="title">Quem é o Ratske?</h2>
+      Desenvolvedor desde 2011, onde comecei atuar com desenvolvimento de sites
+      com PHP e desktop com Dataflex, em 2012 mudei de stack e comecei a
+      desenvolver com .NET Framework utilizando Webforms e MVC.
+      <br />
+      Somente mais tarde em 2016 comecei a procurar saber mais sobre frameworks
+      Javascript e desenvolvimento mobile hibrido, onde conheci Angular e Ionic,
+      foi paixão a primeira vista!
+      <br />
+      Atualmente trabalho desenvolvendo soluções para mobile e webapps, fazendo
+      backend e frontend.
+      <h3 className="sub-title">Principais tecnologias utilizadas:</h3>
+      <ul>
+        <li>React</li>
+        <li>Angular</li>
+        <li>Ionic framework</li>
+        <li>C#</li>
+        <li>Node.JS</li>
+      </ul>
     </div>
   </div>
 );

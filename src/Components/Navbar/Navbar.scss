@@ -24,4 +24,17 @@
       }
     }
   }
+
+  .navbar-footer {
+    font-size: 0.8em;
+    font-weight: 100;
+    bottom: 10px;
+    left: 10px;
+    position: absolute;
+
+    .navbar-footer-link {
+      color: #f5f5f5;
+      text-decoration: none;
+    }
+  }
 }
