@@ -1,0 +1,21 @@
+.presentation-grid {
+  display: inline-grid;
+  width: 100%;
+  grid-template-columns: 320px 1fr;
+  font-family: 'Roboto Mono', monospace;
+
+  .name {
+    font-size: 3em;
+    margin: 0;
+  }
+
+  .social-logo {
+    width: 30px;
+    border-radius: 50%;
+    margin: 10px;
+  }
+}
+
+.presentation-text {
+  margin-top: 50px;
+}

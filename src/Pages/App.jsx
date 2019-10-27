@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../Components/Navbar/Navbar';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Presentation from './Presentation';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Presentation from './Presentation/Presentation';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import PageContainer from '../Components/PageContainer/PageContainer';
