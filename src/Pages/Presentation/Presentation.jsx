@@ -35,7 +35,7 @@ export default () => (
       desenvolver com .NET Framework utilizando Webforms e MVC.
       <br />
       Somente mais tarde em 2016 comecei a procurar saber mais sobre frameworks
-      Javascript e desenvolvimento mobile hibrido, onde conheci Angular e Ionic,
+      Javascript e desenvolvimento mobile híbrido, onde conheci Angular e Ionic,
       foi paixão a primeira vista!
       <br />
       Atualmente trabalho desenvolvendo soluções para mobile e webapps, fazendo
