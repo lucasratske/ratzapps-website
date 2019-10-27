@@ -1,9 +1,11 @@
+@import '../../Assets/Colors.scss';
+
 .navbar-container {
   position: fixed;
   top: 0;
   width: 280px;
   height: 100%;
-  background: #27272b;
+  background: $color-primary-0;
 
   .navbar {
     list-style: none;
@@ -18,7 +20,7 @@
 
       .navbar-item-link {
         text-decoration: none;
-        color: #f5f5f5;
+        color: $color-text;
       }
     }
   }
@@ -31,7 +33,7 @@
     position: absolute;
 
     .navbar-footer-link {
-      color: #f5f5f5;
+      color: $color-text;
       text-decoration: none;
     }
   }
